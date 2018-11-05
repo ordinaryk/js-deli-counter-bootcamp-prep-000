@@ -19,7 +19,7 @@ function nowServing(katzDeliLine) {
 
   }
    else
-   return (`Currently serving ${katzDeliLine.pop()}.`)
+   return (`Currently serving ${katzDeliLine.shift()}.`)
 
 }
 
